@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T03:14:59.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.5" etag="TYy9yqWg8_nwSouSaWxI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T06:11:14.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="AjEdhedD_0xyD5keFeNG" version="21.3.5" type="github">
   <diagram name="第 1 页" id="i8kBQGctU53IDY2TnXNJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1132" dy="1062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-84" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="70" y="610" width="690" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-86" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="70" y="570" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="70" y="490" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-88" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-93" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="414" y="620" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-96" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 24px;&quot;&gt;SR-IOV Capable NIC&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="760" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-97" value="&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;网络I/O虚拟化是服务器虚拟化技术的重要组成部分，在服务器虚拟化技术领域，计算虚拟化（如CPU和内存虚拟化）已经日趋成熟，但是，网络I/O虚拟化技术的发展相对比较滞后。当前，主流的网络I/O虚拟化技术有三种：软件模拟、网卡直通和SR-IOV。这三种虚拟化技术在不同程度上实现了网络I/O设备的虚拟化功能。&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;软件模拟：通过虚拟化Hypervisor层模拟虚拟网卡，实现与物理设备完全一样的接口，虚拟机操作系统无须修改就能直接驱动虚拟网卡，其最大的缺点是性能相对较差。&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;网卡直通：支持虚拟机绕过Hypervisor层，直接访问物理I/O设备，具有最高的性能，但是，在同一时刻，物理I/O设备只能被一个虚拟机独享。&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;SR-IOV：Intel在2007年提出的解决虚拟化网络I/O的硬件技术方案，该技术不仅能够继承网卡直通的高性能优势，而且同时支持物理I/O设备的跨虚拟机共享，具有较好的应用前景。&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2007年10月，PCI-SIG发布了PCI-SIG Single Root I/O Virtualization（SR-IOV）规范，其中详细阐述了硬件供应商在多个虚拟机中如何共享单个I/O设备硬件。&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;&quot;&gt;SR-IOV引入了两个新的功能类型：&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;PFs（Physical Functions，物理功能）：物理网卡所支持的一项PCI功能，一个PF可以扩展出若干个VF。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;VFs（Virtual Functions，虚拟功能）：支持SR-IOV的物理网卡虚拟出来的实例，以一个独立网卡的形式呈现，每个VF有独立的PCI配置区域，并可以与其它VF共享同一个物理资源（共用同一个物理网口）。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;一旦在PF中启用了SR-IOV，就可以通过PF的总线、设备和功能编号（路由ID）访问各个VF的PCIe配置空间。每个VF都具有一个PCIe内存空间，用于映射其寄存器集。VF设备驱动程序对寄存器集进行操作以启用其功能，并且显示为实际存在的PCIe设备。创建VF后，可以直接将其指定给I/O来宾域或各个应用程序。此功能使得虚拟功能可以共享物理设备，并在没有CPU和虚拟机管理程序软件开销的情况下执行I/O。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;由此可见，SR-IOV网卡通过将SR-IOV功能集成到物理网卡上，将单一的物理网卡虚拟成多个VF接口，每个VF接口都有单独的虚拟PCIe通道，这些虚拟的PCIe通道共用物理网卡的PCIe通道。每个虚拟机可占用一个或多个VF接口，这样虚拟机就可以直接访问自己的VF接口，而不需要Hypervisor的协调干预，从而大幅提升网络吞吐性能。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;需要注意的是，SR-IOV作为一种新技术，目前仍不完善的地方：&lt;/div&gt;&lt;div style=&quot;&quot;&gt;单个物理网卡支持的虚拟机个数有限制。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;SR-IOV特性需要物理网卡硬件支持，并非所有的物理网卡都支持SR-IOV特性。&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="29" y="820" width="770" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-99" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-100" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-101" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-102" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="450" y="640" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-103" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="115" y="630" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-104" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="115" y="685" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-105" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="125" y="695" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-106" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="140" y="710" width="185" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
