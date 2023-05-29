@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T02:50:51.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.5" etag="aoYZ-TkxvepKoWjZBr4P" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T02:56:40.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="z-7KBgFtR-c5rry3uTHY" version="21.3.5" type="github">
   <diagram name="第 1 页" id="wii_C8DcdEm8m-YouHjy">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s1AAlehvZTcNoMTOQNF3-1" value="" style="shape=mxgraph.cisco.routers.broadcast_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="670" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="s1AAlehvZTcNoMTOQNF3-2" value="" style="shape=mxgraph.cisco.security.network_security;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="45" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="s1AAlehvZTcNoMTOQNF3-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="62" height="68.8" as="geometry" />
+        </mxCell>
+        <mxCell id="s1AAlehvZTcNoMTOQNF3-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.arrowNE;fillColor=#000000;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="430" width="45.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s1AAlehvZTcNoMTOQNF3-5" value="isometric edge" style="edgeStyle=isometricEdgeStyle;endArrow=none;html=1;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="100" relative="1" as="geometry">
+            <mxPoint x="370" y="420" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
