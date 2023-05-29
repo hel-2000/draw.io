@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T06:29:49.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="usN9DBh6mPzS8jee4Wmf" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T06:43:16.411Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Jj9tN-n9a3YAe7IWCqVn" version="21.3.5" type="github">
   <diagram name="第 1 页" id="i8kBQGctU53IDY2TnXNJ">
     <mxGraphModel dx="1132" dy="1062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,15 +64,6 @@
         <mxCell id="NqEIsBkk9j9Vk6BldH_W-110" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;Virtual Function&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="700" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NqEIsBkk9j9Vk6BldH_W-112" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;Intel VT-d&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="115" y="505" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NqEIsBkk9j9Vk6BldH_W-113" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;vSwitch&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="475" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NqEIsBkk9j9Vk6BldH_W-114" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;NIC Device Driver&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="505" width="160" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="NqEIsBkk9j9Vk6BldH_W-115" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;VF Device Driver&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="360" width="160" height="30" as="geometry" />
         </mxCell>
@@ -81,6 +72,9 @@
         </mxCell>
         <mxCell id="NqEIsBkk9j9Vk6BldH_W-116" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;vNIC Device Driver&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="360" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-134" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.795;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#99CCFF;" edge="1" parent="1" source="NqEIsBkk9j9Vk6BldH_W-117" target="NqEIsBkk9j9Vk6BldH_W-88">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NqEIsBkk9j9Vk6BldH_W-117" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;vNIC Device Driver&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="360" width="160" height="30" as="geometry" />
@@ -105,6 +99,27 @@
         </mxCell>
         <mxCell id="NqEIsBkk9j9Vk6BldH_W-127" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.network_card;" vertex="1" parent="1">
           <mxGeometry x="626" y="765" width="118" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-135" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.188;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#7F00FF;" edge="1" parent="1" source="NqEIsBkk9j9Vk6BldH_W-115" target="NqEIsBkk9j9Vk6BldH_W-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-112" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;Intel VT-d&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="505" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-136" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.426;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#66B2FF;" edge="1" parent="1" source="NqEIsBkk9j9Vk6BldH_W-88" target="NqEIsBkk9j9Vk6BldH_W-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-137" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="410" y="475" width="320" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-138" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="410" y="515" width="320" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-139" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;vSwitch&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="475" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqEIsBkk9j9Vk6BldH_W-140" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;NIC Device Driver&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="515" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
